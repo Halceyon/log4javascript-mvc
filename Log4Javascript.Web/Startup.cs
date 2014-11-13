@@ -10,7 +10,7 @@ namespace Log4Javascript.Web
 {
     public class Startup
     {
-        public static void WebApi(HttpConfiguration config)
+        public static void WebApi(HttpConfiguration config, string baseRoute)
         {
             var json = config.Formatters.JsonFormatter;
             json.SerializerSettings.PreserveReferencesHandling = PreserveReferencesHandling.None;
@@ -21,8 +21,8 @@ namespace Log4Javascript.Web
 
             config.Routes.MapHttpRoute(
                 name: "Logging",
-                routeTemplate: "Logging/{controller}/{action}/{id}",
-                defaults: new { controller = "Logs", action = "Write", id = RouteParameter.Optional }
+                routeTemplate: baseRoute + "/{action}",
+                defaults: new { controller = "Logs", action = "Write" }
             );
         }
     }

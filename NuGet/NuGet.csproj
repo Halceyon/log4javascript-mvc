@@ -62,6 +62,9 @@
     <Folder Include="src\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\Scripts\log4javascript_production.js" />
+    <Content Include="content\Scripts\log4javascript_production_uncompressed.js" />
+    <Content Include="content\Scripts\log4javascript_uncompressed.js" />
     <Content Include="lib\Log4Javascript.Web.dll" />
     <Content Include="content\Scripts\log4javascript.js" />
   </ItemGroup>

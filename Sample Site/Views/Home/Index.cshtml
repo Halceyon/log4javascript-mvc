@@ -31,11 +31,11 @@
 </div>
 <script src="~/Scripts/log4javascript.js"></script>
 <script>
-    var ajaxAppender = new log4javascript.AjaxAppender('@Url.Content("~/Logging/Logs/Write")');
+    var ajaxAppender = new log4javascript.AjaxAppender('@Url.Content("~/JsLogging/Write")');
     ajaxAppender.setLayout(new log4javascript.JsonLayout());
     ajaxAppender.addHeader("Content-Type", "application/json; charset=utf-8");
     var log = log4javascript.getDefaultLogger();
     log.addAppender(ajaxAppender);
     log.info("Hello world");
-    
+
 </script>

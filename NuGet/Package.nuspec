@@ -4,7 +4,7 @@
     <id>log4javascript-mvc</id>
     <version>1.0.0</version>
     <title>log4javascript-mvc</title>
-    <authors>craig_000</authors>
+    <authors>Code HQ</authors>
     <owners></owners>
     <description>
       MVC Web Api implementation of log4javascript
@@ -15,11 +15,11 @@
       MVC Web Api implementation of log4javascript
     </summary>
     <language>en-US</language>
-    <projectUrl>https://nuget.org/packages/NuGet</projectUrl>
+    <projectUrl>https://github.com/Halceyon/log4javascript-mvc</projectUrl>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <copyright>Copyright  2014</copyright>
+    <copyright>Copyright Code HQ (Pty) Ltd 2014</copyright>
     <dependencies>
         <group targetFramework="net40">
           <dependency id="EntityFramework " version="6.1.1" />

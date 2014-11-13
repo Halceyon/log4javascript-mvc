@@ -19,7 +19,7 @@ namespace Sample_Site
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-            Log4Javascript.Web.Startup.WebApi(config);
+            Log4Javascript.Web.Startup.WebApi(config, "JsLogging");
         }
     }
 }
