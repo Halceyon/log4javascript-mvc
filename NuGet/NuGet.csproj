@@ -49,6 +49,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="lib\Log4Javascript.Web.dll.config" />
     <None Include="NuGetPackage.ps1" />
     <None Include="NuGetSetup.ps1" />
     <None Include="NuGet.exe" />
@@ -59,14 +60,11 @@
     <None Include="tools\uninstall.ps1" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="content\" />
     <Folder Include="src\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content\Scripts\log4javascript_production.js" />
-    <Content Include="content\Scripts\log4javascript_production_uncompressed.js" />
-    <Content Include="content\Scripts\log4javascript_uncompressed.js" />
     <Content Include="lib\Log4Javascript.Web.dll" />
-    <Content Include="content\Scripts\log4javascript.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

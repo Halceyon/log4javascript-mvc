@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet", "NuGet\NuGet.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample Site", "Sample Site\Sample Site.csproj", "{D0A4308C-B8E6-4FF5-8136-F0F3952C618E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Javascript.Web", "Log4Javascript.Web\Log4Javascript.Web.csproj", "{5B5C3684-9DD8-41D6-90FE-A0BEC49442FF}"
 EndProject
@@ -14,6 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{78B6D4
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53677D93-C1BF-45EC-9F2E-503FDA89134D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
@@ -26,10 +29,6 @@ Global
 		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0A4308C-B8E6-4FF5-8136-F0F3952C618E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0A4308C-B8E6-4FF5-8136-F0F3952C618E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0A4308C-B8E6-4FF5-8136-F0F3952C618E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0A4308C-B8E6-4FF5-8136-F0F3952C618E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5B5C3684-9DD8-41D6-90FE-A0BEC49442FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5B5C3684-9DD8-41D6-90FE-A0BEC49442FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B5C3684-9DD8-41D6-90FE-A0BEC49442FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3497D700-E129-4D3B-A004-982006F9068E}
 	EndGlobalSection
 EndGlobal
