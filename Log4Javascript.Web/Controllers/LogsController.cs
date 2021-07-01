@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Web;
 using System.Web.Http;
 using Log4Javascript.Web.Models;
+using Newtonsoft.Json;
 
 namespace Log4Javascript.Web.Controllers
 {
